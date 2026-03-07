@@ -171,6 +171,7 @@ const FitnessApp = () => {
     return (
         <div className="fitness-app-container">
             <h1 className="fitness-app-title">Workout Video Upload</h1>
+            <h2>CI/CD Pipeline Test Successful</h2>
             <form className="exercise-form" onSubmit={handleSubmit}>
                 <label htmlFor="exercises">Select your exercise:</label>
                 <select className="exercise-dropdown" name="exercises_dropdown" value={exerciseName} required onChange={(e) => setExerciseName(e.target.value)}>
