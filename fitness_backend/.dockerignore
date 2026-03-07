@@ -1,0 +1,6 @@
+*.log
+*.cache
+__pycache__/
+*.dat
+model_offload/ 
+TinyLlama_finetuned/

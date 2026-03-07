@@ -1,0 +1,91 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtualenvs
+venv/
+env/
+myenv/
+.venv/
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and runtime files
+logs/
+*.log
+events.out.tfevents.*
+
+# Django / local DB
+*.sqlite3
+db.sqlite3
+fitness_backend/db.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+.nbproject/
+
+# macOS
+.DS_Store
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# Node / Frontend
+node_modules/
+fitness-frontend/node_modules/
+fitness-frontend/build/
+dist/
+
+# Model files / checkpoints / large artifacts
+*.gguf
+*.onnx
+*.pt
+*.bin
+tinyllama-*.gguf
+TinyLlama_finetuned/
+TinyLlama_fitness_chatbot/
+TinyLlama_fitness_chatbot_onnx/
+deepseek_finetuned/
+deepseek_finetuned/checkpoint-92/
+model_offload/
+
+# Training data / media / uploads
+training_input_videos/
+training_output_videos/
+workout_videos/
+pose_videos/
+uploads/
+media/
+progress_images/
+
+# Quantization / generated artifacts
+*.quantized.*
+quantize_output/
+Quantized_TinyLlama.py
+
+# Secrets and credentials
+fitness_backend/gleaming-bus-449020-t9-f7d13ab90da0.json
+*.pem
+*.key
+.env
+.env.local
+django-secrets.yml
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Misc
+*.tmp
+*.cache
+*.pid

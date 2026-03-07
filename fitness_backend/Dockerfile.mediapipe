@@ -1,0 +1,95 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install essential packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    cmake \
+    git \
+    libgl1 \
+    libglib2.0-0 \
+    libx264-dev \
+    ffmpeg \
+    libsm6 \
+    libxext6 \
+    libxrender-dev \
+    libfontconfig1 \
+    wget \
+    unzip \
+    python3-dev \
+    python3-numpy \
+    pkg-config \
+    libavcodec-dev \
+    libavformat-dev \
+    libswscale-dev
+
+# Copy mediapipe requirements
+COPY fitness_backend/mediapipe-requirements.txt .
+RUN pip install --no-cache-dir -r mediapipe-requirements.txt
+
+# Uninstall the pre-built OpenCV (if it exists)
+RUN pip uninstall -y opencv-python opencv-contrib-python
+
+# Download OpenCV source
+RUN wget -q https://github.com/opencv/opencv/archive/4.9.0.zip -O opencv.zip && \
+    unzip -q opencv.zip && \
+    mv opencv-4.9.0 opencv && \
+    rm opencv.zip
+
+RUN wget -q https://github.com/opencv/opencv_contrib/archive/4.9.0.zip -O opencv_contrib.zip && \
+    unzip -q opencv_contrib.zip && \
+    mv opencv_contrib-4.9.0 opencv_contrib && \
+    rm opencv_contrib.zip
+
+# Create build directory
+RUN mkdir -p /app/opencv/build
+WORKDIR /app/opencv/build
+
+# Configure OpenCV with proper parameters
+RUN cmake \
+    -D CMAKE_BUILD_TYPE=RELEASE \
+    -D CMAKE_INSTALL_PREFIX=/usr/local \
+    -D OPENCV_GENERATE_PKGCONFIG=ON \
+    -D WITH_FFMPEG=ON \
+    -D WITH_X264=ON \
+    -D OPENCV_EXTRA_MODULES_PATH=/app/opencv_contrib/modules \
+    -D PYTHON_EXECUTABLE=$(which python3) \
+    -D PYTHON_DEFAULT_EXECUTABLE=$(which python3) \
+    -D BUILD_opencv_python3=ON \
+    -D BUILD_opencv_python2=OFF \
+    -D BUILD_EXAMPLES=OFF \
+    -D BUILD_TESTS=OFF \
+    -D BUILD_PERF_TESTS=OFF \
+    -D BUILD_DOCS=OFF \
+    -D OPENCV_ENABLE_NONFREE=ON \
+    -D INSTALL_PYTHON_EXAMPLES=OFF \
+    -D INSTALL_C_EXAMPLES=OFF \
+    -D WITH_QT=OFF \
+    -D WITH_GTK=OFF \
+    -D WITH_COCOA=OFF \
+    -D WITH_X11=OFF \
+    ..
+
+# Build and install OpenCV with fewer jobs to avoid memory issues
+RUN make -j2
+RUN make install
+RUN ldconfig
+
+# Verify OpenCV installation
+RUN python3 -c "import cv2; print(cv2.__version__)"
+
+WORKDIR /app
+
+# Copy mediapipe app files
+COPY fitness_backend/django_app/mediapipe_model.py . 
+COPY read_input_files.py .
+COPY time_under_tension.py .
+COPY helper.py . 
+
+# Explicitly set permissions for the shared volume
+RUN mkdir -p /app/media/pose_videos && chown -R root:root /app/media && chmod -R 777 /app/media
+
+EXPOSE 8002
+
+CMD ["python", "mediapipe_model.py"]

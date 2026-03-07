@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-deployment
+  labels:
+    app: django-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: django-app
+  template:
+    metadata:
+      labels:
+        app: django-app
+    spec:
+      volumes:
+        - name: media-storage
+          persistentVolumeClaim: 
+            claimName: media-pvc
+      containers:
+        - name: django-container
+          image: gcr.io/gleaming-bus-449020-t9/django-app:v1.2
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          volumeMounts:
+            - name: media-storage
+              mountPath: /app/media
+          env:
+            - name: DJANGO_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: django-secret-key
+            - name: POSTGRES_USER
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: postgres-user
+            - name: POSTGRES_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: postgres-password
+            - name: POSTGRES_DB
+              valueFrom:
+                secretKeyRef:
+                  name: django-secrets
+                  key: postgres-db
+            - name: DATABASE_HOST
+              value: "db-service"
+            - name: DATABASE_PORT
+              value: "5432"
+            - name: DJANGO_SETTINGS_MODULE
+              value: "fitness_backend.container_settings"
+          # readinessProbe:
+          #   httpGet:
+          #     path: /health/
+          #     port: 8000
+          #   initialDelaySeconds: 10
+          #   periodSeconds: 5
+          # livenessProbe:
+          #   httpGet:
+          #     path: /health/
+          #     port: 8000
+          #   initialDelaySeconds: 30
+          #   periodSeconds: 10

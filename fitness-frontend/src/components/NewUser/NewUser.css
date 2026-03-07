@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --background-color: #f4f6f7;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+input[type="number"].weight-input {
+   width: 100% !important;
+   min-width: 0;
+   max-width: 100%;
+}
+
+.newuser-container {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.newuser-title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.newuser-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.newuser-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+
+.username-input,
+.email-input,
+.password-input,
+.name-input,
+.weight-input,
+.gender-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    font-size: 1rem;
+    display: block;
+}
+
+.weight-input::-webkit-inner-spin-button,
+.weight-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.weight-input::-moz-inner-spin-button,
+.weight-input::-moz-outer-spin-button {
+    -moz-appearance: none;
+    margin: 0;
+}
+
+.username-input:focus,
+.email-input:focus,
+.password-input:focus,
+.name-input:focus,
+.weight-input:focus,
+.gender-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+
+.submit-button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+    .newuser-container {
+        margin: 2rem 1rem;
+        padding: 1.5rem;
+    }
+}

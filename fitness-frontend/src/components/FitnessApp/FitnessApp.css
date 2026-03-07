@@ -1,0 +1,194 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f4f6f7;
+    --text-color: #34495e;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rbga(0,0,0,0.1);
+}
+
+.fitness-app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.video-progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 640px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+.fitness-app-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.exercise-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    width: 100%;
+    max-width: 400px;
+}
+
+.loading-spinner {
+    border: 4px solid var(--background-color);
+    border-top: 4px solid var(--secondary-color);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.exercise-dropdown,
+.weight-input,
+.file-upload {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.exercise-dropdown:focus,
+.weight-input:focus {
+    outline: none;
+    border-color: var(--background-color);
+}
+
+.submit-button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+.video-container, .progress-image {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    object-fit: contain;
+}
+
+.chatbot-response {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.signoff-button {
+    display: block;
+    width: 200px;
+    margin: 2rem auto;
+    background-color: var(--background-color);
+    color: #2c3e50;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;    
+}
+
+.progress-button:hover {
+    background-color: #34495e;
+}
+
+.analyzing-message, .chatbot-loading{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.analyzing-message .loading-spinner,
+.chatbot-loading .loading-spinner {
+    border: 4px solid #f3f4f6;
+    border-top: 4px solid var(--primary-color);
+}
+
+.analyzing-message p,
+.chatbot-loading p {
+    margin: 0; /* Remove default margins from the paragraph */
+}
+
+.chatbot-response-container {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 640px;
+    box-sizing: border-box;
+}
+
+.chatbot-response-container h3 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .fitness-app-container{
+        padding: 1rem;
+        margin: 1rem;
+    }
+}

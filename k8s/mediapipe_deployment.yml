@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mediapipe-deployment
+  labels:
+    app: mediapipe-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mediapipe-app
+  template:
+    metadata:
+      labels:
+        app: mediapipe-app
+    spec:
+      volumes:
+        - name: media-storage
+          persistentVolumeClaim:
+            claimName: media-pvc
+      containers:
+        - name: mediapipe-container
+          image: gcr.io/gleaming-bus-449020-t9/mediapipe:v1.0
+          ports:
+            - containerPort: 8002
+          volumeMounts:
+            - name: media-storage
+              mountPath: /app/media
+          

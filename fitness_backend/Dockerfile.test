@@ -1,0 +1,7 @@
+FROM alpine:latest
+
+WORKDIR /test_app
+
+COPY fitness_backend/container_settings.py .
+
+CMD ["cat", "container_settings.py"]

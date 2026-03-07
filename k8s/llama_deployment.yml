@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: llama-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: llama-app
+  template:
+    metadata:
+      labels:
+        app: llama-app
+    spec:
+      nodeSelector:
+        cloud.google.com/gke-nodepool: llama-arm64-pool
+      containers:
+        - name: llama-container
+          image: gcr.io/gleaming-bus-449020-t9/llama:v1.0
+          command: ["/bin/sh", "-c", "/venv/bin/python3 llama_model.py"]
+          ports:
+            - containerPort: 8001

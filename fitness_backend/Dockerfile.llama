@@ -1,0 +1,30 @@
+# Dockerfile.llama
+FROM 3x3cut0r/llama-cpp-python:latest
+
+WORKDIR /app
+
+RUN apk update && apk add --no-cache gcc python3-dev musl-dev linux-headers
+
+RUN /venv/bin/python3 -m pip install --no-cache-dir Flask==3.1.0
+
+# Copy only llama-cpp-python related requirements
+COPY fitness_backend/llama-requirements.txt .
+
+# RUN pip install --no-cache-dir -r llama-requirements.txt
+RUN /venv/bin/python3 -m pip install --no-cache-dir -r llama-requirements.txt
+
+# Copy model
+COPY fitness_backend/tinyllama-1.1b-chat-v0.3.Q8_0.gguf /app/
+
+# Copy llama-cpp specific app files
+COPY fitness_backend/django_app/llama_model.py . 
+COPY ExerciseAssessmentSystem.py .
+
+RUN chmod +x llama_model.py
+
+EXPOSE 8001
+
+ENTRYPOINT []
+CMD ["/venv/bin/python3", "llama_model.py"]
+
+# CMD ["python", "llama_model.py"] 

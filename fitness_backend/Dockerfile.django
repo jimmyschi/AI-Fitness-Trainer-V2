@@ -1,0 +1,32 @@
+# Dockerfile.django
+FROM python:3.11
+
+WORKDIR /app
+
+RUN apt-get update --allow-unauthenticated
+# RUN apt-get install -y inetutils-ping  # Comment out this line
+
+# Copy requirements and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+RUN pip install --no-cache-dir google-cloud-storage
+
+COPY gleaming-bus-449020-t9-f7d13ab90da0.json /app/gleaming-bus-449020-t9-f7d13ab90da0.json
+
+# Copy Django project files
+COPY django_app/ /app/django_app/
+COPY fitness_backend /app/fitness_backend/
+COPY fitness_backend/container_settings.py /app/fitness_backend/container_settings.py
+COPY container_manage.py /app/
+
+
+# Expose Django port
+EXPOSE 8000
+
+ENV DJANGO_SETTINGS_MODULE=fitness_backend.container_settings
+
+# Run Django development server (replace with your production server)
+CMD ["python", "container_manage.py", "runserver", "0.0.0.0:8000"]
+
+

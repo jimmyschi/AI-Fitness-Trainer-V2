@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+    --background-color: #f4f6f7;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+
+.userlogin-container {
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+.userlogin-title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.userlogin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.userlogin-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.username-input,
+.password-input {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: var(--border-radius);
+    transition: border-color 0.3s ease;
+    width: calc(100% - 28px);
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.weight-input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.username-input:focus,
+.password-input:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.login-button,
+.newuser-button {
+    padding: 12px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+
+
+.login-button {
+    background-color: var(--secondary-color);
+    color: white;
+    margin-top: 1rem;
+}
+
+.login-button:hover:not(:disabled) {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.login-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.newuser-button {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    margin-top: 1rem;
+}
+
+.newuser-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .userlogin-container {
+        margin: 2rem 1rem;
+        padding: 1.5rem;
+    }
+}

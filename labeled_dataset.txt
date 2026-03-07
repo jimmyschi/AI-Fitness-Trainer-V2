@@ -1,0 +1,5132 @@
+{
+    "barbell biceps curl": [
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5782530903816223,
+                0.5313648581504822,
+                0.22072170674800873,
+                0.017735177651047707
+            ],
+            "timestamps": 0.0,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.579390823841095,
+                0.5249720215797424,
+                -0.3556552827358246,
+                0.9962854385375977
+            ],
+            "timestamps": 0.03336666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5176935791969299,
+                0.6451697945594788,
+                0.1018635556101799,
+                0.04685841500759125
+            ],
+            "timestamps": 0.06673333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.509888231754303,
+                0.6712610125541687,
+                -0.3083157539367676,
+                0.9802068471908569
+            ],
+            "timestamps": 0.10010000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5874677896499634,
+                0.526546835899353,
+                0.1899467259645462,
+                0.008901555091142654
+            ],
+            "timestamps": 0.13346666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5751050710678101,
+                0.533896803855896,
+                -0.35746580362319946,
+                0.9904130101203918
+            ],
+            "timestamps": 0.16683333333333333,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5196621417999268,
+                0.6213240623474121,
+                0.094172902405262,
+                0.024240093305706978
+            ],
+            "timestamps": 0.20020000000000002,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.496676504611969,
+                0.6571645736694336,
+                -0.30929291248321533,
+                0.9555929899215698
+            ],
+            "timestamps": 0.23356666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.578667938709259,
+                0.5108685493469238,
+                0.20431074500083923,
+                0.03467098996043205
+            ],
+            "timestamps": 0.26693333333333336,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5808560848236084,
+                0.5236924290657043,
+                -0.34100714325904846,
+                0.994271993637085
+            ],
+            "timestamps": 0.3003,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5104018449783325,
+                0.5998316407203674,
+                0.08214343339204788,
+                0.11577801406383514
+            ],
+            "timestamps": 0.33366666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.495746910572052,
+                0.6077948212623596,
+                -0.3318046033382416,
+                0.9813082814216614
+            ],
+            "timestamps": 0.3670333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.578667938709259,
+                0.5108685493469238,
+                0.20431074500083923,
+                0.03467098996043205
+            ],
+            "timestamps": 0.40040000000000003,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5808560848236084,
+                0.5236924290657043,
+                -0.34100714325904846,
+                0.994271993637085
+            ],
+            "timestamps": 0.4337666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5104018449783325,
+                0.5998316407203674,
+                0.08214343339204788,
+                0.11577801406383514
+            ],
+            "timestamps": 0.46713333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.495746910572052,
+                0.6077948212623596,
+                -0.3318046033382416,
+                0.9813082814216614
+            ],
+            "timestamps": 0.5005000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5927762389183044,
+                0.508935272693634,
+                0.20835573971271515,
+                0.011465635150671005
+            ],
+            "timestamps": 0.5338666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5789857506752014,
+                0.5232330560684204,
+                -0.3223796784877777,
+                0.9898805618286133
+            ],
+            "timestamps": 0.5672333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5118536949157715,
+                0.5555906295776367,
+                0.10726087540388107,
+                0.0962207019329071
+            ],
+            "timestamps": 0.6006,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48927146196365356,
+                0.5851530432701111,
+                -0.32079383730888367,
+                0.9692015647888184
+            ],
+            "timestamps": 0.6339666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5746726989746094,
+                0.49482160806655884,
+                0.16534896194934845,
+                0.02382940612733364
+            ],
+            "timestamps": 0.6673333333333333,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5739150643348694,
+                0.5213545560836792,
+                -0.3071761429309845,
+                0.9895657300949097
+            ],
+            "timestamps": 0.7007000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4987313449382782,
+                0.5289435386657715,
+                0.02069944702088833,
+                0.11410146206617355
+            ],
+            "timestamps": 0.7340666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4717341661453247,
+                0.5610390305519104,
+                -0.30262482166290283,
+                0.979555070400238
+            ],
+            "timestamps": 0.7674333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5697224140167236,
+                0.5196241140365601,
+                0.17055097222328186,
+                0.014447933994233608
+            ],
+            "timestamps": 0.8341666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5758078694343567,
+                0.5123642683029175,
+                -0.31383514404296875,
+                0.9685384035110474
+            ],
+            "timestamps": 0.8675333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.476887971162796,
+                0.5276475548744202,
+                0.04267320781946182,
+                0.038474906235933304
+            ],
+            "timestamps": 0.9009000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47104963660240173,
+                0.5257155299186707,
+                -0.319631427526474,
+                0.8967578411102295
+            ],
+            "timestamps": 0.9342666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5757143497467041,
+                0.5162200927734375,
+                0.15119104087352753,
+                0.006284045055508614
+            ],
+            "timestamps": 0.9676333333333333,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5720270872116089,
+                0.512527585029602,
+                -0.3718949854373932,
+                0.9623958468437195
+            ],
+            "timestamps": 1.0010000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4924227297306061,
+                0.506005585193634,
+                -0.04098357632756233,
+                0.03537089750170708
+            ],
+            "timestamps": 1.1344666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.46868789196014404,
+                0.4965621829032898,
+                -0.3734996020793915,
+                0.8682942986488342
+            ],
+            "timestamps": 1.1678333333333333,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5730075240135193,
+                0.5141524076461792,
+                0.11634911596775055,
+                0.008385570719838142
+            ],
+            "timestamps": 1.2345666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5725670456886292,
+                0.5120663642883301,
+                -0.38180676102638245,
+                0.96873939037323
+            ],
+            "timestamps": 1.2679333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49138909578323364,
+                0.5033137798309326,
+                -0.12207307666540146,
+                0.05289940908551216
+            ],
+            "timestamps": 1.3013000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4690178632736206,
+                0.4957866668701172,
+                -0.3911256492137909,
+                0.9050558805465698
+            ],
+            "timestamps": 1.3346666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5503676533699036,
+                0.5087857246398926,
+                0.10313914716243744,
+                0.02257300354540348
+            ],
+            "timestamps": 1.3680333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5664816498756409,
+                0.4953266978263855,
+                -0.3250487148761749,
+                0.960628092288971
+            ],
+            "timestamps": 1.4014000000000002,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.46271467208862305,
+                0.440668523311615,
+                -0.14644227921962738,
+                0.09975092858076096
+            ],
+            "timestamps": 1.4347666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47362640500068665,
+                0.44340673089027405,
+                -0.2785526514053345,
+                0.8310002088546753
+            ],
+            "timestamps": 1.4681333333333335,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5684048533439636,
+                0.5012816786766052,
+                0.158018559217453,
+                0.008728006854653358
+            ],
+            "timestamps": 1.5015,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.567457377910614,
+                0.49795499444007874,
+                -0.29696813225746155,
+                0.9039685726165771
+            ],
+            "timestamps": 1.5348666666666668,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.473891943693161,
+                0.437494158744812,
+                -0.02931302785873413,
+                0.031322505325078964
+            ],
+            "timestamps": 1.5682333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4799143373966217,
+                0.4358186721801758,
+                -0.24662278592586517,
+                0.5541403889656067
+            ],
+            "timestamps": 1.6016000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5655419826507568,
+                0.49264273047447205,
+                0.10722026973962784,
+                0.004818818066269159
+            ],
+            "timestamps": 1.6349666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5573452711105347,
+                0.482366144657135,
+                -0.2167820930480957,
+                0.9425888657569885
+            ],
+            "timestamps": 1.6683333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5206485390663147,
+                0.3825119733810425,
+                -0.17263223230838776,
+                0.0551363080739975
+            ],
+            "timestamps": 1.7017,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4743250608444214,
+                0.39129289984703064,
+                -0.05629570409655571,
+                0.8195298910140991
+            ],
+            "timestamps": 1.7350666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5648354291915894,
+                0.48922520875930786,
+                0.11239497363567352,
+                0.005017384886741638
+            ],
+            "timestamps": 1.7684333333333335,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5555320382118225,
+                0.46599486470222473,
+                -0.21948136389255524,
+                0.9205756783485413
+            ],
+            "timestamps": 1.8018000000000003,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5197032690048218,
+                0.38297829031944275,
+                -0.17915572226047516,
+                0.08596646785736084
+            ],
+            "timestamps": 1.8351666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47328388690948486,
+                0.370010644197464,
+                -0.0789080411195755,
+                0.8101385235786438
+            ],
+            "timestamps": 1.8685333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5585943460464478,
+                0.4928126037120819,
+                0.1135534942150116,
+                0.005035810172557831
+            ],
+            "timestamps": 1.9019000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5538591146469116,
+                0.46931907534599304,
+                -0.209906205534935,
+                0.9147087931632996
+            ],
+            "timestamps": 1.9352666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.503900945186615,
+                0.38936111330986023,
+                -0.20416073501110077,
+                0.07703308761119843
+            ],
+            "timestamps": 1.9686333333333335,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47620734572410583,
+                0.37614989280700684,
+                -0.060068823397159576,
+                0.8059667348861694
+            ],
+            "timestamps": 2.0020000000000002,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5543906688690186,
+                0.4686259925365448,
+                0.1280377209186554,
+                0.006528886035084724
+            ],
+            "timestamps": 2.0353666666666665,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5444392561912537,
+                0.46346282958984375,
+                -0.1781895011663437,
+                0.9509414434432983
+            ],
+            "timestamps": 2.0687333333333333,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5210863947868347,
+                0.36436915397644043,
+                -0.15767018496990204,
+                0.035719964653253555
+            ],
+            "timestamps": 2.1021,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47528278827667236,
+                0.3498196303844452,
+                0.0006625080131925642,
+                0.8269553780555725
+            ],
+            "timestamps": 2.135466666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5419559478759766,
+                0.4597689211368561,
+                0.09918565303087234,
+                0.011324496008455753
+            ],
+            "timestamps": 2.1688333333333336,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5422578454017639,
+                0.46232280135154724,
+                -0.19598470628261566,
+                0.9538000822067261
+            ],
+            "timestamps": 2.2022,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49289605021476746,
+                0.34292182326316833,
+                -0.16564880311489105,
+                0.040189228951931
+            ],
+            "timestamps": 2.2355666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4786474406719208,
+                0.33614295721054077,
+                -0.03731006383895874,
+                0.810142993927002
+            ],
+            "timestamps": 2.2689333333333335,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5438240766525269,
+                0.45535925030708313,
+                0.10182997584342957,
+                0.008412257768213749
+            ],
+            "timestamps": 2.3023000000000002,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5368428826332092,
+                0.4552191495895386,
+                -0.19276729226112366,
+                0.9549858570098877
+            ],
+            "timestamps": 2.3356666666666666,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49988362193107605,
+                0.3505266308784485,
+                -0.17557968199253082,
+                0.026107685640454292
+            ],
+            "timestamps": 2.3690333333333333,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48588958382606506,
+                0.3412572741508484,
+                -0.0021179174073040485,
+                0.7528634071350098
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5341140627861023,
+                0.45220375061035156,
+                0.11054236441850662,
+                0.0062056309543550014
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5353114604949951,
+                0.4468576908111572,
+                -0.20462124049663544,
+                0.9368201494216919
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4967952370643616,
+                0.3278372287750244,
+                -0.14317671954631805,
+                0.02162468247115612
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48745736479759216,
+                0.3325095474720001,
+                -0.012605246156454086,
+                0.565520703792572
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5491464138031006,
+                0.4407532215118408,
+                0.12706248462200165,
+                0.006714489310979843
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5338989496231079,
+                0.4506390690803528,
+                -0.1910354495048523,
+                0.9539596438407898
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5084443092346191,
+                0.3412131369113922,
+                -0.11330624669790268,
+                0.026421066373586655
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48855265974998474,
+                0.32822394371032715,
+                0.002511948114261031,
+                0.6359555125236511
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5411608815193176,
+                0.4368983805179596,
+                0.2040206342935562,
+                0.014797866344451904
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5298500657081604,
+                0.441165953874588,
+                -0.18327496945858002,
+                0.9576258659362793
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5102838277816772,
+                0.3298971951007843,
+                0.07190162688493729,
+                0.03786318004131317
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4897806942462921,
+                0.313640296459198,
+                -0.013039789162576199,
+                0.7462670207023621
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5575078129768372,
+                0.46128860116004944,
+                0.13847467303276062,
+                0.008547687903046608
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.521894633769989,
+                0.4446538984775543,
+                -0.22182776033878326,
+                0.9324465394020081
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5217586159706116,
+                0.37354013323783875,
+                -0.044084541499614716,
+                0.05830971524119377
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49999138712882996,
+                0.3497181832790375,
+                -0.11257021874189377,
+                0.6307748556137085
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5601011514663696,
+                0.46062180399894714,
+                0.29357442259788513,
+                0.030361240729689598
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5190355777740479,
+                0.4571622908115387,
+                -0.20706400275230408,
+                0.8455927968025208
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5290107727050781,
+                0.4004979431629181,
+                0.36230719089508057,
+                0.05440274998545647
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5109674334526062,
+                0.38147205114364624,
+                -0.10208931565284729,
+                0.2623828053474426
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5378891229629517,
+                0.46184244751930237,
+                -0.10896578431129456,
+                0.05789192020893097
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5389363765716553,
+                0.45583757758140564,
+                -0.2911966145038605,
+                0.7719981074333191
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5344427227973938,
+                0.3903806209564209,
+                -0.3669430613517761,
+                0.11313269287347794
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.529897153377533,
+                0.3932681083679199,
+                -0.39030539989471436,
+                0.5077113509178162
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5880041718482971,
+                0.4668320119380951,
+                0.06551460921764374,
+                0.015492623671889305
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5182855725288391,
+                0.4457727372646332,
+                -0.24880185723304749,
+                0.3373880386352539
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5768857598304749,
+                0.49867209792137146,
+                0.1413225680589676,
+                0.016498222947120667
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5394039750099182,
+                0.40980595350265503,
+                -0.34426823258399963,
+                0.0632338672876358
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5865886807441711,
+                0.4048365354537964,
+                -0.26600050926208496,
+                0.27452266216278076
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5141199827194214,
+                0.41947850584983826,
+                -0.2626744508743286,
+                0.12904688715934753
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5575319528579712,
+                0.3485029637813568,
+                -0.2957541048526764,
+                0.033631619065999985
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5146362781524658,
+                0.3476337492465973,
+                -0.2924533784389496,
+                0.03791845962405205
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5235433578491211,
+                0.41788050532341003,
+                -0.22767235338687897,
+                0.044181086122989655
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5642507672309875,
+                0.4538681209087372,
+                -0.299993634223938,
+                0.02444855123758316
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5049688816070557,
+                0.3598720133304596,
+                -0.334902822971344,
+                0.044635891914367676
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5504952669143677,
+                0.3979560136795044,
+                -0.31297048926353455,
+                0.00821976363658905
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.517319917678833,
+                0.4663260579109192,
+                -0.33948108553886414,
+                0.16702310740947723
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5815874934196472,
+                0.43753236532211304,
+                -0.2866375744342804,
+                0.06632280349731445
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5110392570495605,
+                0.39926618337631226,
+                -0.39559802412986755,
+                0.04491022229194641
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5282509326934814,
+                0.3830393850803375,
+                -0.2787061631679535,
+                0.024939384311437607
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.53643798828125,
+                0.40305575728416443,
+                -0.16074320673942566,
+                0.12476332485675812
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5614213943481445,
+                0.39875707030296326,
+                -0.1491290181875229,
+                0.026921434327960014
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5289598107337952,
+                0.372999906539917,
+                -0.006069393362849951,
+                0.026950852945446968
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5350403189659119,
+                0.3591611683368683,
+                -0.011625716462731361,
+                0.017252687364816666
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.511497974395752,
+                0.4856548607349396,
+                -0.22435639798641205,
+                0.17836304008960724
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5858473181724548,
+                0.41283345222473145,
+                -0.2758322060108185,
+                0.09217432886362076
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5178052186965942,
+                0.3984365165233612,
+                -0.283818781375885,
+                0.04832316190004349
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5416192412376404,
+                0.3672081530094147,
+                -0.30534297227859497,
+                0.015971902757883072
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5275302529335022,
+                0.49472683668136597,
+                -0.19021393358707428,
+                0.04349297657608986
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5670238137245178,
+                0.42355895042419434,
+                -0.3074118494987488,
+                0.1031346395611763
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5332424640655518,
+                0.4475853145122528,
+                -0.3908275365829468,
+                0.02716497890651226
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5380104184150696,
+                0.3741692900657654,
+                -0.4275756776332855,
+                0.02467944473028183
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5213849544525146,
+                0.5182536840438843,
+                -0.24709750711917877,
+                0.0782940462231636
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5959860682487488,
+                0.4414462149143219,
+                -0.41835135221481323,
+                0.47747254371643066
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5272341966629028,
+                0.44147995114326477,
+                -0.4683780074119568,
+                0.04939251393079758
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5491821765899658,
+                0.40574488043785095,
+                -0.5489031672477722,
+                0.14461712539196014
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5473698973655701,
+                0.4927235245704651,
+                -0.15401428937911987,
+                0.023066073656082153
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5969882607460022,
+                0.4545375108718872,
+                -0.2919434905052185,
+                0.1014266237616539
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5481056571006775,
+                0.4744764566421509,
+                -0.2447981834411621,
+                0.03311249986290932
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5861393809318542,
+                0.47424304485321045,
+                -0.4045729637145996,
+                0.02785143256187439
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5733198523521423,
+                0.47298845648765564,
+                0.14071376621723175,
+                0.005655889865010977
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5437948703765869,
+                0.4359395503997803,
+                -0.3189905881881714,
+                0.6097862124443054
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5585432052612305,
+                0.45524027943611145,
+                0.10220750421285629,
+                0.008529768325388432
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.525424063205719,
+                0.3631991147994995,
+                -0.40213653445243835,
+                0.19259944558143616
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5691663026809692,
+                0.45351508259773254,
+                0.19458375871181488,
+                0.007081572897732258
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5444570183753967,
+                0.4158110022544861,
+                -0.3585592806339264,
+                0.7957948446273804
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5359358191490173,
+                0.4206908047199249,
+                0.22429151833057404,
+                0.011086344718933105
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5128835439682007,
+                0.34668341279029846,
+                -0.4526061713695526,
+                0.3253875970840454
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5525562167167664,
+                0.46556538343429565,
+                0.08076410740613937,
+                0.012399880215525627
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5323439240455627,
+                0.4609461724758148,
+                -0.2504402995109558,
+                0.9655224680900574
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5205135345458984,
+                0.3726842403411865,
+                -0.16991329193115234,
+                0.046820636838674545
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.504374086856842,
+                0.3386724591255188,
+                -0.1610027700662613,
+                0.6870755553245544
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5583438277244568,
+                0.45908796787261963,
+                0.11897580325603485,
+                0.003646035445854068
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5354369878768921,
+                0.45329535007476807,
+                -0.18224850296974182,
+                0.9351444840431213
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5059559345245361,
+                0.33177658915519714,
+                -0.11662013083696365,
+                0.03839860484004021
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4954816401004791,
+                0.3288244605064392,
+                0.0031430756207555532,
+                0.602075457572937
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5358755588531494,
+                0.45439326763153076,
+                0.2468613237142563,
+                0.027697782963514328
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5293278694152832,
+                0.4433422386646271,
+                -0.19474130868911743,
+                0.7740835547447205
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5027061104774475,
+                0.30671319365501404,
+                0.22076906263828278,
+                0.022281333804130554
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4982661306858063,
+                0.3264555037021637,
+                -0.01560939196497202,
+                0.23941977322101593
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5497645735740662,
+                0.45789530873298645,
+                0.14217671751976013,
+                0.0058762445114552975
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5366392731666565,
+                0.45853614807128906,
+                -0.1947644054889679,
+                0.9575995802879333
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5110849738121033,
+                0.3557925224304199,
+                -0.05896606296300888,
+                0.031482234597206116
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49110788106918335,
+                0.3429765999317169,
+                0.0028163075912743807,
+                0.6978392004966736
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5497645735740662,
+                0.45789530873298645,
+                0.14217671751976013,
+                0.0058762445114552975
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5366392731666565,
+                0.45853614807128906,
+                -0.1947644054889679,
+                0.9575995802879333
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5110849738121033,
+                0.3557925224304199,
+                -0.05896606296300888,
+                0.031482234597206116
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49110788106918335,
+                0.3429765999317169,
+                0.0028163075912743807,
+                0.6978392004966736
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5455179214477539,
+                0.47188881039619446,
+                0.09189612418413162,
+                0.003766912966966629
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.541346549987793,
+                0.4690280854701996,
+                -0.19313372671604156,
+                0.9664139151573181
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5021628141403198,
+                0.3522917628288269,
+                -0.18471458554267883,
+                0.026891421526670456
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4922231435775757,
+                0.3470553159713745,
+                0.009700161404907703,
+                0.7831276655197144
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5450860261917114,
+                0.4771614968776703,
+                0.09444281458854675,
+                0.005046807695180178
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5424710512161255,
+                0.4745424687862396,
+                -0.18230274319648743,
+                0.9352298974990845
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49809759855270386,
+                0.34119880199432373,
+                -0.17757201194763184,
+                0.02067071571946144
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48279622197151184,
+                0.33719465136528015,
+                0.007461093366146088,
+                0.6876503825187683
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.532706081867218,
+                0.46971121430397034,
+                0.10300827026367188,
+                0.006419453304260969
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5422799587249756,
+                0.46632617712020874,
+                -0.19870731234550476,
+                0.9196411371231079
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48835039138793945,
+                0.3352140486240387,
+                -0.162784144282341,
+                0.02866274304687977
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4764655530452728,
+                0.33449581265449524,
+                -0.024546081200242043,
+                0.6927866339683533
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5502946972846985,
+                0.4872056245803833,
+                0.09859093278646469,
+                0.011689131148159504
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5481618046760559,
+                0.47921451926231384,
+                -0.19814170897006989,
+                0.9575372934341431
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.502906322479248,
+                0.3793596029281616,
+                -0.17075876891613007,
+                0.07488095760345459
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4841494858264923,
+                0.3602602779865265,
+                -0.03812418505549431,
+                0.8447844982147217
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5502946972846985,
+                0.4872056245803833,
+                0.09859093278646469,
+                0.011689131148159504
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5481618046760559,
+                0.47921451926231384,
+                -0.19814170897006989,
+                0.9575372934341431
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.502906322479248,
+                0.3793596029281616,
+                -0.17075876891613007,
+                0.07488095760345459
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4841494858264923,
+                0.3602602779865265,
+                -0.03812418505549431,
+                0.8447844982147217
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5602392554283142,
+                0.4869549870491028,
+                0.10852783173322678,
+                0.007966139353811741
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5555150508880615,
+                0.4810565412044525,
+                -0.20050550997257233,
+                0.9691752195358276
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5058085918426514,
+                0.3831459879875183,
+                -0.172349750995636,
+                0.07193449884653091
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48409503698349,
+                0.38009876012802124,
+                -0.029000453650951385,
+                0.88898104429245
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5642179250717163,
+                0.48040199279785156,
+                0.1300356388092041,
+                0.006025752052664757
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5601794123649597,
+                0.4810669422149658,
+                -0.2126404345035553,
+                0.9606136679649353
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4967476427555084,
+                0.3909836411476135,
+                -0.11362605541944504,
+                0.027177942916750908
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4852147698402405,
+                0.40144801139831543,
+                -0.0490679107606411,
+                0.7710403800010681
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5500202178955078,
+                0.47925177216529846,
+                0.11638499051332474,
+                0.007694263942539692
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.56830894947052,
+                0.4886380136013031,
+                -0.2620033919811249,
+                0.9731974601745605
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49087202548980713,
+                0.3876408040523529,
+                -0.15197014808654785,
+                0.0757371261715889
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48277583718299866,
+                0.4109349548816681,
+                -0.12243979424238205,
+                0.9224408864974976
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5672386884689331,
+                0.48139870166778564,
+                0.12297122180461884,
+                0.011165136471390724
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5681046843528748,
+                0.4950655400753021,
+                -0.35997098684310913,
+                0.9671973586082458
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5091918706893921,
+                0.3709948658943176,
+                -0.08235158771276474,
+                0.10140589624643326
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4731437861919403,
+                0.4235053062438965,
+                -0.3786933720111847,
+                0.9306620359420776
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5630708336830139,
+                0.49260377883911133,
+                0.11974790692329407,
+                0.005689350422471762
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5699214339256287,
+                0.48863667249679565,
+                -0.30501511693000793,
+                0.9543997645378113
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4988920986652374,
+                0.39207231998443604,
+                -0.10971172153949738,
+                0.06605251133441925
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48138564825057983,
+                0.42860084772109985,
+                -0.27618345618247986,
+                0.9019225835800171
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5552485585212708,
+                0.4911406934261322,
+                0.11253922432661057,
+                0.013594312593340874
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5686324834823608,
+                0.5023670792579651,
+                -0.31026503443717957,
+                0.960734486579895
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4651343524456024,
+                0.42278531193733215,
+                -0.13288462162017822,
+                0.1160673275589943
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4712361693382263,
+                0.43628284335136414,
+                -0.26330429315567017,
+                0.8824866414070129
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5656231045722961,
+                0.5032838582992554,
+                0.13313604891300201,
+                0.018526853993535042
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5744242072105408,
+                0.4981434643268585,
+                -0.2872926592826843,
+                0.9640357494354248
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47595322132110596,
+                0.46608972549438477,
+                -0.06910499930381775,
+                0.09546218067407608
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47279924154281616,
+                0.45351719856262207,
+                -0.24199174344539642,
+                0.8793158531188965
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5795543193817139,
+                0.5108294486999512,
+                0.21710334718227386,
+                0.004910389427095652
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5700962543487549,
+                0.5073599219322205,
+                -0.36941638588905334,
+                0.9528781175613403
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4932488799095154,
+                0.48653292655944824,
+                0.0974600687623024,
+                0.02524416148662567
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4659608006477356,
+                0.48641708493232727,
+                -0.3782714605331421,
+                0.8064544796943665
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5886786580085754,
+                0.5147074460983276,
+                0.19699065387248993,
+                0.0045166052877902985
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5697237253189087,
+                0.5125532150268555,
+                -0.33830782771110535,
+                0.9380910396575928
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4991316497325897,
+                0.506458044052124,
+                0.05246162787079811,
+                0.026732994243502617
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4754472076892853,
+                0.5040298700332642,
+                -0.32987356185913086,
+                0.7530189752578735
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5542033314704895,
+                0.5130284428596497,
+                0.1886071413755417,
+                0.010212235152721405
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5700676441192627,
+                0.514687716960907,
+                -0.3348800837993622,
+                0.9489173889160156
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4748692214488983,
+                0.5110094547271729,
+                0.026386745274066925,
+                0.027498967945575714
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4734526574611664,
+                0.5122272372245789,
+                -0.3239080309867859,
+                0.8391521573066711
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5654800534248352,
+                0.5213384032249451,
+                0.1545925736427307,
+                0.025606675073504448
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5752779245376587,
+                0.5113868713378906,
+                -0.3022315204143524,
+                0.9708400964736938
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47833380103111267,
+                0.5285436511039734,
+                -0.028905902057886124,
+                0.0905909389257431
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.47091710567474365,
+                0.5159108638763428,
+                -0.29219695925712585,
+                0.9167988896369934
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.57193523645401,
+                0.5115514397621155,
+                0.14339515566825867,
+                0.007313169073313475
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5697568655014038,
+                0.5207979083061218,
+                -0.3468768000602722,
+                0.9394413232803345
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48782867193222046,
+                0.5341030359268188,
+                -0.04248686507344246,
+                0.028590505942702293
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.46869176626205444,
+                0.5466175079345703,
+                -0.3422721028327942,
+                0.8090541958808899
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5683978199958801,
+                0.5062275528907776,
+                0.2152041643857956,
+                0.006828195881098509
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5717781782150269,
+                0.5198554992675781,
+                -0.39142942428588867,
+                0.9589287638664246
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.492143452167511,
+                0.5334846377372742,
+                0.10254058241844177,
+                0.026919428259134293
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4747186005115509,
+                0.5701367259025574,
+                -0.385405033826828,
+                0.9001272320747375
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5675517916679382,
+                0.5016406774520874,
+                0.20505966246128082,
+                0.01641157455742359
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5761296153068542,
+                0.5125510096549988,
+                -0.3288302719593048,
+                0.9795432686805725
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4918558895587921,
+                0.5486331582069397,
+                0.07913907617330551,
+                0.050589606165885925
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48492351174354553,
+                0.5830457210540771,
+                -0.331879585981369,
+                0.9428110718727112
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5628470778465271,
+                0.4976206421852112,
+                0.17617937922477722,
+                0.015186138451099396
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5777571797370911,
+                0.5144603848457336,
+                -0.33497869968414307,
+                0.9746391177177429
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4947170615196228,
+                0.5443490743637085,
+                0.06932754814624786,
+                0.025536276400089264
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.48602059483528137,
+                0.5803507566452026,
+                -0.30048778653144836,
+                0.9414354562759399
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5748633742332458,
+                0.5158594846725464,
+                0.18715167045593262,
+                0.013068828731775284
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5718603134155273,
+                0.5208865404129028,
+                -0.3172825276851654,
+                0.9892528653144836
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4962711036205292,
+                0.5721397995948792,
+                0.05762477591633797,
+                0.05068384110927582
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4799972176551819,
+                0.5941622853279114,
+                -0.2878888249397278,
+                0.9639191031455994
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5765764713287354,
+                0.5117360353469849,
+                0.18491782248020172,
+                0.003536020638421178
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5685625672340393,
+                0.5213730335235596,
+                -0.34794044494628906,
+                0.967552661895752
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49932411313056946,
+                0.5933780670166016,
+                0.03739197924733162,
+                0.012584646232426167
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4789011776447296,
+                0.6201286911964417,
+                -0.3170555531978607,
+                0.8905544877052307
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5797181725502014,
+                0.5260032415390015,
+                0.1667615920305252,
+                0.0038048159331083298
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.564595639705658,
+                0.5313555598258972,
+                -0.33418235182762146,
+                0.9543365836143494
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49674156308174133,
+                0.6194189190864563,
+                0.04640164598822594,
+                0.014132349751889706
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4664975702762604,
+                0.6521031260490417,
+                -0.3115960955619812,
+                0.8492719531059265
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5634886622428894,
+                0.517926037311554,
+                0.13711601495742798,
+                0.0217421967536211
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5684770345687866,
+                0.5249582529067993,
+                -0.36468175053596497,
+                0.9861873388290405
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49883711338043213,
+                0.6280525922775269,
+                -0.015768438577651978,
+                0.04469595476984978
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4881454408168793,
+                0.653482973575592,
+                -0.3297882378101349,
+                0.9556881189346313
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5634886622428894,
+                0.517926037311554,
+                0.13711601495742798,
+                0.0217421967536211
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5684770345687866,
+                0.5249582529067993,
+                -0.36468175053596497,
+                0.9861873388290405
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49883711338043213,
+                0.6280525922775269,
+                -0.015768438577651978,
+                0.04469595476984978
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4881454408168793,
+                0.653482973575592,
+                -0.3297882378101349,
+                0.9556881189346313
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.571548342704773,
+                0.5331525206565857,
+                0.17640970647335052,
+                0.014817004092037678
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5612633228302002,
+                0.5414203405380249,
+                -0.37510260939598083,
+                0.9884428381919861
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5067546367645264,
+                0.6443849205970764,
+                0.04830096662044525,
+                0.04413700848817825
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.49196720123291016,
+                0.6658800840377808,
+                -0.33732762932777405,
+                0.9470478296279907
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5656490325927734,
+                0.5321362018585205,
+                0.17604660987854004,
+                0.011234079487621784
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5640802383422852,
+                0.5340206027030945,
+                -0.3559616506099701,
+                0.9913403391838074
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5096656084060669,
+                0.66621333360672,
+                0.054696545004844666,
+                0.02440514601767063
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.4971809983253479,
+                0.6847618818283081,
+                -0.30484873056411743,
+                0.9399726986885071
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5697535872459412,
+                0.5301644206047058,
+                0.16158714890480042,
+                0.013807332143187523
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5609187483787537,
+                0.5452762246131897,
+                -0.38704776763916016,
+                0.9916912317276001
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5169884562492371,
+                0.6748604774475098,
+                0.04518910497426987,
+                0.03361205756664276
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "barbell biceps curl",
+            "joint_positions": [
+                0.5024064183235168,
+                0.6969637870788574,
+                -0.3687174618244171,
+                0.9568939805030823
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        }
+    ],
+    "bench press": [
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.8604642748832703,
+                0.912544310092926,
+                -0.3336876630783081,
+                0.9958743453025818
+            ],
+            "timestamps": 0.06673333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.9133036136627197,
+                0.7891919612884521,
+                -0.13555482029914856,
+                0.9970292448997498
+            ],
+            "timestamps": 0.5005000000000001,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6960423588752747,
+                0.7525988817214966,
+                -0.25505462288856506,
+                0.3017137348651886
+            ],
+            "timestamps": 0.5338666666666667,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7586771249771118,
+                0.7009629607200623,
+                0.05513054132461548,
+                0.00262258923612535
+            ],
+            "timestamps": 0.6673333333333333,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6821776032447815,
+                0.7636215090751648,
+                -0.13084900379180908,
+                0.1289832592010498
+            ],
+            "timestamps": 0.7340666666666668,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7089690566062927,
+                0.7419554591178894,
+                0.24144770205020905,
+                0.002947780769318342
+            ],
+            "timestamps": 0.7674333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2955814003944397,
+                0.34566134214401245,
+                -0.21773944795131683,
+                0.9947806000709534
+            ],
+            "timestamps": 0.8008000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.27875927090644836,
+                0.3668423295021057,
+                -0.29498985409736633,
+                0.9991662502288818
+            ],
+            "timestamps": 0.8341666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.25860264897346497,
+                0.37518373131752014,
+                -0.2182169258594513,
+                0.0923999771475792
+            ],
+            "timestamps": 0.9009000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2843911349773407,
+                0.38435104489326477,
+                -0.2964446246623993,
+                0.43296319246292114
+            ],
+            "timestamps": 0.9342666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.23754127323627472,
+                0.40478095412254333,
+                -0.2744474709033966,
+                0.1443353146314621
+            ],
+            "timestamps": 0.9676333333333333,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.29247695207595825,
+                0.42129984498023987,
+                -0.33942708373069763,
+                0.6269556283950806
+            ],
+            "timestamps": 1.0010000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.3007338345050812,
+                0.34633275866508484,
+                -0.2749003767967224,
+                0.9969898462295532
+            ],
+            "timestamps": 1.0343666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.26109278202056885,
+                0.37372323870658875,
+                -0.25622111558914185,
+                0.9998482465744019
+            ],
+            "timestamps": 1.0677333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.28505024313926697,
+                0.38209405541419983,
+                -0.2586314082145691,
+                0.21268440783023834
+            ],
+            "timestamps": 1.1011,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.21768352389335632,
+                0.4219217598438263,
+                -0.2557850182056427,
+                0.6893805265426636
+            ],
+            "timestamps": 1.1344666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.26835229992866516,
+                0.4226534068584442,
+                -0.2652775049209595,
+                0.19209440052509308
+            ],
+            "timestamps": 1.1678333333333333,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.1720294952392578,
+                0.45469921827316284,
+                -0.30744048953056335,
+                0.9081369638442993
+            ],
+            "timestamps": 1.2012,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2726125717163086,
+                0.3889465630054474,
+                -0.30473437905311584,
+                0.9975159168243408
+            ],
+            "timestamps": 1.2345666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.29036468267440796,
+                0.4047442674636841,
+                -0.3866778612136841,
+                0.9990130662918091
+            ],
+            "timestamps": 1.2679333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.18897762894630432,
+                0.44186750054359436,
+                -0.2854442298412323,
+                0.2732950747013092
+            ],
+            "timestamps": 1.3013000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2475835382938385,
+                0.44965073466300964,
+                -0.3823229670524597,
+                0.3469369411468506
+            ],
+            "timestamps": 1.3346666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.1572522073984146,
+                0.43801480531692505,
+                -0.35340043902397156,
+                0.34575533866882324
+            ],
+            "timestamps": 1.5015,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.21013349294662476,
+                0.482014924287796,
+                -0.40909525752067566,
+                0.4792826473712921
+            ],
+            "timestamps": 1.5348666666666668,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5078929662704468,
+                0.7197895050048828,
+                0.18240687251091003,
+                0.9997184872627258
+            ],
+            "timestamps": 1.5682333333333334,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5785585641860962,
+                0.6183016896247864,
+                0.5210438966751099,
+                0.9996015429496765
+            ],
+            "timestamps": 1.6016000000000001,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5040855407714844,
+                0.716350257396698,
+                -0.09629522264003754,
+                0.9847976565361023
+            ],
+            "timestamps": 1.6349666666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.650395929813385,
+                0.6163110733032227,
+                0.547734797000885,
+                0.0547332800924778
+            ],
+            "timestamps": 1.6683333333333334,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4871285557746887,
+                0.5327607989311218,
+                -0.26058754324913025,
+                0.9673867225646973
+            ],
+            "timestamps": 1.7017,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6497738361358643,
+                0.5408858060836792,
+                0.4934917986392975,
+                0.23963573575019836
+            ],
+            "timestamps": 2.0020000000000002,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5078929662704468,
+                0.7197895050048828,
+                0.18240687251091003,
+                0.9997184872627258
+            ],
+            "timestamps": 2.135466666666667,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5785585641860962,
+                0.6183016896247864,
+                0.5210438966751099,
+                0.9996015429496765
+            ],
+            "timestamps": 2.1688333333333336,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5040855407714844,
+                0.716350257396698,
+                -0.09629522264003754,
+                0.9847976565361023
+            ],
+            "timestamps": 2.3356666666666666,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.650395929813385,
+                0.6163110733032227,
+                0.547734797000885,
+                0.0547332800924778
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4871285557746887,
+                0.5327607989311218,
+                -0.26058754324913025,
+                0.9673867225646973
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6497738361358643,
+                0.5408858060836792,
+                0.4934917986392975,
+                0.23963573575019836
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2888281047344208,
+                0.4266930818557739,
+                -0.1410716027021408,
+                0.9982301592826843
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.28930771350860596,
+                0.44862568378448486,
+                -0.17894680798053741,
+                0.999037504196167
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.23339535295963287,
+                0.44043871760368347,
+                -0.1684402972459793,
+                0.07408973574638367
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.27986907958984375,
+                0.4936685562133789,
+                -0.18409959971904755,
+                0.027435438707470894
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2064092606306076,
+                0.47801676392555237,
+                -0.24525055289268494,
+                0.1050862967967987
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.2737217843532562,
+                0.5120963454246521,
+                -0.2026442140340805,
+                0.03843241557478905
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5054435729980469,
+                0.7217532992362976,
+                0.13560035824775696,
+                0.9999608993530273
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5744063854217529,
+                0.6273772716522217,
+                0.48461633920669556,
+                0.9999412298202515
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.510733425617218,
+                0.7346174716949463,
+                -0.1345386654138565,
+                0.9956440925598145
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.68361896276474,
+                0.6532370448112488,
+                0.45536354184150696,
+                0.3673369884490967
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4889924228191376,
+                0.54789799451828,
+                -0.28889790177345276,
+                0.9892878532409668
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6558486223220825,
+                0.5606724619865417,
+                0.2985871732234955,
+                0.8216620683670044
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5035867094993591,
+                0.707676887512207,
+                0.12572243809700012,
+                0.9996283054351807
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5806176066398621,
+                0.6366340517997742,
+                0.506639838218689,
+                0.9997337460517883
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5067064762115479,
+                0.7322723269462585,
+                -0.14868012070655823,
+                0.9888560175895691
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6708298921585083,
+                0.653866171836853,
+                0.6120577454566956,
+                0.2781764566898346
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.48641353845596313,
+                0.5601376891136169,
+                -0.3302050530910492,
+                0.9862638711929321
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6539936661720276,
+                0.5652493238449097,
+                0.6417763829231262,
+                0.783840537071228
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5138804912567139,
+                0.7097126841545105,
+                0.15671922266483307,
+                0.9997649788856506
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5881853699684143,
+                0.6286680102348328,
+                0.501873254776001,
+                0.9997419714927673
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5089951157569885,
+                0.7286807298660278,
+                -0.10332903265953064,
+                0.9739176630973816
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6889004111289978,
+                0.6509289741516113,
+                0.5276506543159485,
+                0.1288740336894989
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4868660569190979,
+                0.56046462059021,
+                -0.26507875323295593,
+                0.9685900807380676
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6530504822731018,
+                0.56343013048172,
+                0.46173810958862305,
+                0.5530935525894165
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.502200186252594,
+                0.6926186084747314,
+                0.12167418748140335,
+                0.9998049139976501
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5749620795249939,
+                0.6321539878845215,
+                0.4879402220249176,
+                0.9996498823165894
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5109935402870178,
+                0.741728663444519,
+                -0.17013238370418549,
+                0.9875824451446533
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6632900834083557,
+                0.6644837260246277,
+                0.62518709897995,
+                0.11290816962718964
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4892123341560364,
+                0.5604841709136963,
+                -0.3738287687301636,
+                0.97771155834198
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.657992422580719,
+                0.5855977535247803,
+                0.7131068706512451,
+                0.4278091788291931
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5029731392860413,
+                0.6929910182952881,
+                0.1290099322795868,
+                0.9987103939056396
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5824413895606995,
+                0.6233963370323181,
+                0.4756142199039459,
+                0.998863935470581
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5076431632041931,
+                0.7364996075630188,
+                -0.08613508194684982,
+                0.9584450125694275
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6589018702507019,
+                0.6699273586273193,
+                0.5142887830734253,
+                0.1393212229013443
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.48647817969322205,
+                0.5717992782592773,
+                -0.17555324733257294,
+                0.9327356815338135
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6477015614509583,
+                0.5778927803039551,
+                0.45743006467819214,
+                0.5753610134124756
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5039669275283813,
+                0.680268406867981,
+                0.15704768896102905,
+                0.9992583394050598
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.57675701379776,
+                0.6263144016265869,
+                0.49353548884391785,
+                0.9991328120231628
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5105423331260681,
+                0.7503480911254883,
+                -0.011267404071986675,
+                0.9611242413520813
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6577621698379517,
+                0.6687999367713928,
+                0.4626244306564331,
+                0.07189831137657166
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.48942115902900696,
+                0.576219379901886,
+                -0.04018421471118927,
+                0.9375975131988525
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.648834764957428,
+                0.5853382349014282,
+                0.31353074312210083,
+                0.45265892148017883
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5038250684738159,
+                0.6767429113388062,
+                0.1647592931985855,
+                0.9994532465934753
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5730335712432861,
+                0.6146915555000305,
+                0.5115417242050171,
+                0.9995771050453186
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5114011168479919,
+                0.756070613861084,
+                0.014824021607637405,
+                0.9785487055778503
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6523862481117249,
+                0.6849479675292969,
+                0.5004939436912537,
+                0.07405157387256622
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4921674132347107,
+                0.5769398808479309,
+                0.0008652024553157389,
+                0.957368016242981
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6569350361824036,
+                0.5993987917900085,
+                0.3768562376499176,
+                0.5210120677947998
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4918665885925293,
+                0.6792847514152527,
+                0.14764074981212616,
+                0.9995718598365784
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5683184266090393,
+                0.6234472990036011,
+                0.4562441408634186,
+                0.9996787309646606
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5123997330665588,
+                0.7677067518234253,
+                -0.056841254234313965,
+                0.9612597227096558
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6436364650726318,
+                0.6810339689254761,
+                0.4363326132297516,
+                0.11772271245718002
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4955786168575287,
+                0.5873927474021912,
+                -0.16429373621940613,
+                0.9516720175743103
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6512870192527771,
+                0.5944268107414246,
+                0.29755309224128723,
+                0.614069402217865
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.49344393610954285,
+                0.6640975475311279,
+                0.14770731329917908,
+                0.9993178844451904
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.566357433795929,
+                0.6346908211708069,
+                0.47680550813674927,
+                0.999681830406189
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.511144757270813,
+                0.7532589435577393,
+                -0.04480462893843651,
+                0.9648500680923462
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6455383896827698,
+                0.7129536271095276,
+                0.4818088710308075,
+                0.0572640560567379
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4983291029930115,
+                0.5958895087242126,
+                -0.12120746821165085,
+                0.9283771514892578
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6807072162628174,
+                0.6385533213615417,
+                0.3761771023273468,
+                0.3189302980899811
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.49344393610954285,
+                0.6640975475311279,
+                0.14770731329917908,
+                0.9993178844451904
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.566357433795929,
+                0.6346908211708069,
+                0.47680550813674927,
+                0.999681830406189
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.511144757270813,
+                0.7532589435577393,
+                -0.04480462893843651,
+                0.9648500680923462
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6455383896827698,
+                0.7129536271095276,
+                0.4818088710308075,
+                0.0572640560567379
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4983291029930115,
+                0.5958895087242126,
+                -0.12120746821165085,
+                0.9283771514892578
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6807072162628174,
+                0.6385533213615417,
+                0.3761771023273468,
+                0.3189302980899811
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4963473677635193,
+                0.6646533608436584,
+                0.13936468958854675,
+                0.9998030066490173
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5631732940673828,
+                0.632470965385437,
+                0.49081674218177795,
+                0.9997379183769226
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5144818425178528,
+                0.7869732975959778,
+                -0.10891953110694885,
+                0.9607343673706055
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6449325680732727,
+                0.6923480033874512,
+                0.6145182251930237,
+                0.037909187376499176
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4918392598628998,
+                0.6130462288856506,
+                -0.25901445746421814,
+                0.8593289256095886
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6790240406990051,
+                0.6418834924697876,
+                0.6612302660942078,
+                0.12406110763549805
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.49762991070747375,
+                0.6651799082756042,
+                0.15437786281108856,
+                0.999845027923584
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5661863088607788,
+                0.6210213899612427,
+                0.44019338488578796,
+                0.9998509883880615
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5125442743301392,
+                0.8137142062187195,
+                -0.023188402876257896,
+                0.7951368093490601
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.648607075214386,
+                0.6932825446128845,
+                0.3519243896007538,
+                0.028384042903780937
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.588012158870697,
+                0.7789308428764343,
+                -0.1239003911614418,
+                0.4038535952568054
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6718685030937195,
+                0.6394141912460327,
+                0.12703639268875122,
+                0.1750902384519577
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.489231675863266,
+                0.6564074158668518,
+                0.13856396079063416,
+                0.9995474219322205
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.567131757736206,
+                0.626190185546875,
+                0.4856472611427307,
+                0.9995399713516235
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5131853222846985,
+                0.7939391732215881,
+                -0.08619684725999832,
+                0.8950093984603882
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6494967937469482,
+                0.6834775805473328,
+                0.5801481008529663,
+                0.02108512632548809
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5093232989311218,
+                0.6301174163818359,
+                -0.21440346539020538,
+                0.6569299697875977
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6631869077682495,
+                0.6311864256858826,
+                0.5837994813919067,
+                0.0861520767211914
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4920845627784729,
+                0.652965247631073,
+                0.12952445447444916,
+                0.9996039271354675
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5715305805206299,
+                0.6214940547943115,
+                0.4212963879108429,
+                0.9999359846115112
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5114187598228455,
+                0.818352997303009,
+                -0.06599286943674088,
+                0.7737509608268738
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6500422954559326,
+                0.6530868411064148,
+                0.5538275837898254,
+                0.21130041778087616
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5659142732620239,
+                0.7898016571998596,
+                -0.22404935956001282,
+                0.3054445683956146
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6560306549072266,
+                0.5933844447135925,
+                0.5989990234375,
+                0.6405577063560486
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4951254427433014,
+                0.6631045937538147,
+                0.14247171580791473,
+                0.9996066689491272
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5668938159942627,
+                0.6176983118057251,
+                0.41709983348846436,
+                0.9998811483383179
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5069913864135742,
+                0.8372630476951599,
+                -0.0510876290500164,
+                0.8666500449180603
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6417664885520935,
+                0.6680741906166077,
+                0.5118893980979919,
+                0.06664514541625977
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5305191278457642,
+                0.7238814830780029,
+                -0.18195576965808868,
+                0.43323615193367004
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.657409131526947,
+                0.5980902314186096,
+                0.5198195576667786,
+                0.3125184178352356
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4948062598705292,
+                0.6650335788726807,
+                0.12670089304447174,
+                0.9993502497673035
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5661304593086243,
+                0.6354901790618896,
+                0.4260108172893524,
+                0.9995055198669434
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5079808831214905,
+                0.8384528756141663,
+                -0.04039693996310234,
+                0.7071089744567871
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.634030282497406,
+                0.7848203778266907,
+                0.34848150610923767,
+                0.006853526923805475
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5647642612457275,
+                0.7736659049987793,
+                -0.0968121811747551,
+                0.18939527869224548
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6647037863731384,
+                0.7903259992599487,
+                0.15536843240261078,
+                0.0332733578979969
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4976184070110321,
+                0.6628867387771606,
+                0.07685495913028717,
+                0.9995701909065247
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5672217607498169,
+                0.6376575231552124,
+                0.43551525473594666,
+                0.9997629523277283
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5004990100860596,
+                0.778792142868042,
+                -0.10752566903829575,
+                0.9706915020942688
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6477822661399841,
+                0.717496395111084,
+                0.4783705770969391,
+                0.10210694372653961
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4856199622154236,
+                0.5912272930145264,
+                -0.17292946577072144,
+                0.9227911233901978
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6638988256454468,
+                0.6158943176269531,
+                0.4060344696044922,
+                0.5209189057350159
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4997570216655731,
+                0.6624268889427185,
+                0.09022809565067291,
+                0.9984147548675537
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5646892786026001,
+                0.6370871067047119,
+                0.41780999302864075,
+                0.9996216297149658
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5133681297302246,
+                0.7954651713371277,
+                -0.05861349776387215,
+                0.5308194160461426
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6392058730125427,
+                0.714568018913269,
+                0.4332539737224579,
+                0.022008927538990974
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5689767599105835,
+                0.7173393964767456,
+                -0.11357176303863525,
+                0.10030484944581985
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6737038493156433,
+                0.6613391041755676,
+                0.3073357343673706,
+                0.07422180473804474
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.49485787749290466,
+                0.6706469655036926,
+                0.1735876500606537,
+                0.9998170733451843
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5729469656944275,
+                0.6530987620353699,
+                0.5613227486610413,
+                0.9995259046554565
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5043953657150269,
+                0.7434502243995667,
+                -0.12338998913764954,
+                0.9503204822540283
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6474645733833313,
+                0.6650208234786987,
+                0.7225545644760132,
+                0.024684689939022064
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4861332178115845,
+                0.5693624019622803,
+                -0.31431514024734497,
+                0.859238862991333
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6491871476173401,
+                0.5910793542861938,
+                0.8381490111351013,
+                0.11251872777938843
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.49476343393325806,
+                0.6934680938720703,
+                0.11864160001277924,
+                0.9997833371162415
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5662217736244202,
+                0.6478657722473145,
+                0.5266947746276855,
+                0.9998373985290527
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5037546157836914,
+                0.727138102054596,
+                -0.15845133364200592,
+                0.9926359057426453
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6583031415939331,
+                0.6810441017150879,
+                0.620685875415802,
+                0.1605079174041748
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.48488810658454895,
+                0.5466340184211731,
+                -0.3383539319038391,
+                0.9927124977111816
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6604223847389221,
+                0.5628211498260498,
+                0.6253075003623962,
+                0.7035278081893921
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.33210399746894836,
+                0.4056923985481262,
+                -0.2997038662433624,
+                0.9976140260696411
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.27579906582832336,
+                0.4454830586910248,
+                -0.3927214443683624,
+                0.9995657801628113
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.3272720277309418,
+                0.4702133536338806,
+                -0.19750158488750458,
+                0.03898819908499718
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.18216808140277863,
+                0.47547590732574463,
+                -0.3677877187728882,
+                0.4683696925640106
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.315635621547699,
+                0.5139781832695007,
+                -0.17984360456466675,
+                0.02421477995812893
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.09417378902435303,
+                0.4800988733768463,
+                -0.3883647918701172,
+                0.6472262740135193
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.24939249455928802,
+                0.36936065554618835,
+                -0.3911513686180115,
+                0.999359667301178
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.3338908851146698,
+                0.36265861988067627,
+                -0.3892800509929657,
+                0.9998606443405151
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.1643693894147873,
+                0.42438188195228577,
+                -0.41380786895751953,
+                0.8785178065299988
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.3976578414440155,
+                0.41973939538002014,
+                -0.3190735876560211,
+                0.6738446950912476
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.06297024339437485,
+                0.43758270144462585,
+                -0.4698837995529175,
+                0.7825963497161865
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4667591452598572,
+                0.4523717761039734,
+                -0.2966667115688324,
+                0.5882059335708618
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4761151969432831,
+                0.7031829357147217,
+                0.018748454749584198,
+                0.9972363710403442
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.5368920564651489,
+                0.6946519017219543,
+                0.4448557198047638,
+                0.9993138313293457
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4732070565223694,
+                0.5066987872123718,
+                0.04863413795828819,
+                0.9002811312675476
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6302675604820251,
+                0.6191638708114624,
+                0.5417094826698303,
+                0.11786159873008728
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.4769913852214813,
+                0.34789344668388367,
+                0.20491664111614227,
+                0.9243364334106445
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.647190272808075,
+                0.4265623390674591,
+                0.5104594826698303,
+                0.48087871074676514
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.8459717035293579,
+                0.8123121857643127,
+                -0.41334912180900574,
+                0.9995250701904297
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.902298092842102,
+                0.7941941618919373,
+                -0.21754741668701172,
+                0.9994382262229919
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.69682776927948,
+                0.7026541233062744,
+                -0.350986510515213,
+                0.8231618404388428
+            ],
+            "timestamps": null,
+            "label": "Good form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7661649584770203,
+                0.7880403995513916,
+                -0.040202971547842026,
+                0.010347613133490086
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6335492730140686,
+                0.7201388478279114,
+                -0.28323131799697876,
+                0.5648819804191589
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7085362076759338,
+                0.8165529370307922,
+                0.12391022592782974,
+                0.004846338648349047
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.8559319376945496,
+                0.8303805589675903,
+                -0.38223201036453247,
+                0.998960018157959
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.904880940914154,
+                0.8008974194526672,
+                -0.18478724360466003,
+                0.9991490840911865
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7161006331443787,
+                0.7301187515258789,
+                -0.30298835039138794,
+                0.7589419484138489
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7612877488136292,
+                0.7748088836669922,
+                -0.022962110117077827,
+                0.010150629095733166
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6732926964759827,
+                0.7503620982170105,
+                -0.20692667365074158,
+                0.4176670014858246
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7076083421707153,
+                0.8084172010421753,
+                0.12297902256250381,
+                0.005433342885226011
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.8363803029060364,
+                0.8135735988616943,
+                -0.3691837191581726,
+                0.9955407977104187
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.8496423959732056,
+                0.9000047445297241,
+                -0.23136581480503082,
+                0.9972119927406311
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7237165570259094,
+                0.7588134407997131,
+                -0.3102685213088989,
+                0.11426105350255966
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.7235187888145447,
+                0.8358049988746643,
+                -0.0952485054731369,
+                0.005521818064153194
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.710250198841095,
+                0.7683115005493164,
+                -0.26003456115722656,
+                0.08146994560956955
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        },
+        {
+            "exercise": "bench press",
+            "joint_positions": [
+                0.6763274073600769,
+                0.8264419436454773,
+                0.004149341490119696,
+                0.0017867762362584472
+            ],
+            "timestamps": null,
+            "label": "Bad form"
+        }
+    ]
+}
