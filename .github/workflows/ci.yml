@@ -19,10 +19,10 @@ jobs:
 
     - name: Install frontend dependencies
       run: |
-        cd frontend
+        cd fitness-frontend
         npm install
 
     - name: Build frontend
       run: |
-        cd frontend
+        cd fitness-frontend
         npm run build
