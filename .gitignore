@@ -21,6 +21,9 @@ logs/
 *.log
 events.out.tfevents.*
 
+# Documentation / Markdown files
+*.md
+
 # Django / local DB
 *.sqlite3
 db.sqlite3
