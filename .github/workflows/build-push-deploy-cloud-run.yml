@@ -25,16 +25,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: ${{ env.PROJECT_ID }}
-          export_default_credentials: true
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
 
       - name: Configure Docker for GCR
         run: |
           gcloud auth configure-docker
+          gcloud config set project ${{ env.PROJECT_ID }}
 
       - name: Build Django image
         run: |
@@ -73,11 +75,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: ${{ env.PROJECT_ID }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
 
       - name: Deploy Django to Cloud Run
         run: |
@@ -90,11 +94,12 @@ jobs:
             --cpu 1 \
             --timeout 3600 \
             --max-instances 10 \
-            --port 8000
+            --port 8000 \
+            --project ${{ env.PROJECT_ID }}
 
       - name: Get Django Cloud Run URL
         run: |
-          DJANGO_URL=$(gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format 'value(status.url)')
+          DJANGO_URL=$(gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format 'value(status.url)' --project ${{ env.PROJECT_ID }})
           echo "Django Backend URL: $DJANGO_URL"
           echo "DJANGO_URL=$DJANGO_URL" >> $GITHUB_ENV
 
@@ -112,11 +117,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: ${{ env.PROJECT_ID }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
 
       - name: Deploy React to Cloud Run
         run: |
@@ -128,11 +135,12 @@ jobs:
             --memory 512Mi \
             --cpu 1 \
             --max-instances 5 \
-            --port 80
+            --port 80 \
+            --project ${{ env.PROJECT_ID }}
 
       - name: Get React Cloud Run URL
         run: |
-          REACT_URL=$(gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format 'value(status.url)')
+          REACT_URL=$(gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format 'value(status.url)' --project ${{ env.PROJECT_ID }})
           echo "React Frontend URL: $REACT_URL"
           echo "REACT_URL=$REACT_URL" >> $GITHUB_ENV
 
@@ -145,11 +153,13 @@ jobs:
     if: success()
 
     steps:
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v1
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
         with:
-          service_account_key: ${{ secrets.GCP_SA_KEY }}
-          project_id: ${{ env.PROJECT_ID }}
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
 
       - name: Display deployment summary
         run: |
@@ -158,9 +168,9 @@ jobs:
           echo "=========================================="
           echo ""
           echo "Backend Service:"
-          gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format='value(status.url)'
+          gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }}
           echo ""
           echo "Frontend Service:"
-          gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format='value(status.url)'
+          gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }}
           echo ""
           echo "=========================================="
