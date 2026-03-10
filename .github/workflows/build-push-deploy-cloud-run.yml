@@ -1,0 +1,166 @@
+name: Build, Push to GCR, and Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+env:
+  PROJECT_ID: gleaming-bus-449020-t9
+  GCR_HOSTNAME: gcr.io
+  DJANGO_IMAGE_NAME: django-app
+  REACT_IMAGE_NAME: react-app
+  DJANGO_REGION: us-central1
+  REACT_REGION: us-central1
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ env.PROJECT_ID }}
+          export_default_credentials: true
+
+      - name: Configure Docker for GCR
+        run: |
+          gcloud auth configure-docker
+
+      - name: Build Django image
+        run: |
+          docker build \
+            --tag "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.DJANGO_IMAGE_NAME }}:${{ github.sha }}" \
+            --tag "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.DJANGO_IMAGE_NAME }}:latest" \
+            --file fitness_backend/Dockerfile.django \
+            .
+
+      - name: Push Django image to GCR
+        run: |
+          docker push "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.DJANGO_IMAGE_NAME }}:${{ github.sha }}"
+          docker push "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.DJANGO_IMAGE_NAME }}:latest"
+
+      - name: Build React image
+        run: |
+          docker build \
+            --tag "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.REACT_IMAGE_NAME }}:${{ github.sha }}" \
+            --tag "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.REACT_IMAGE_NAME }}:latest" \
+            --file fitness-frontend/Dockerfile.frontend \
+            fitness-frontend/
+
+      - name: Push React image to GCR
+        run: |
+          docker push "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.REACT_IMAGE_NAME }}:${{ github.sha }}"
+          docker push "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.REACT_IMAGE_NAME }}:latest"
+
+  deploy-django:
+    runs-on: ubuntu-latest
+    needs: build-and-push
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Deploy Django to Cloud Run
+        run: |
+          gcloud run deploy fitness-backend \
+            --image "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.DJANGO_IMAGE_NAME }}:${{ github.sha }}" \
+            --region ${{ env.DJANGO_REGION }} \
+            --platform managed \
+            --allow-unauthenticated \
+            --memory 2Gi \
+            --cpu 1 \
+            --timeout 3600 \
+            --max-instances 10 \
+            --port 8000
+
+      - name: Get Django Cloud Run URL
+        run: |
+          DJANGO_URL=$(gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format 'value(status.url)')
+          echo "Django Backend URL: $DJANGO_URL"
+          echo "DJANGO_URL=$DJANGO_URL" >> $GITHUB_ENV
+
+      - name: Output Django URL
+        run: echo "::notice::Django Backend deployed at ${{ env.DJANGO_URL }}"
+
+  deploy-react:
+    runs-on: ubuntu-latest
+    needs: [build-and-push, deploy-django]
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Deploy React to Cloud Run
+        run: |
+          gcloud run deploy fitness-frontend \
+            --image "${{ env.GCR_HOSTNAME }}/${{ env.PROJECT_ID }}/${{ env.REACT_IMAGE_NAME }}:${{ github.sha }}" \
+            --region ${{ env.REACT_REGION }} \
+            --platform managed \
+            --allow-unauthenticated \
+            --memory 512Mi \
+            --cpu 1 \
+            --max-instances 5 \
+            --port 80
+
+      - name: Get React Cloud Run URL
+        run: |
+          REACT_URL=$(gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format 'value(status.url)')
+          echo "React Frontend URL: $REACT_URL"
+          echo "REACT_URL=$REACT_URL" >> $GITHUB_ENV
+
+      - name: Output React URL
+        run: echo "::notice::React Frontend deployed at ${{ env.REACT_URL }}"
+
+  summary:
+    runs-on: ubuntu-latest
+    needs: [deploy-django, deploy-react]
+    if: success()
+
+    steps:
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Display deployment summary
+        run: |
+          echo "=========================================="
+          echo "Cloud Run Deployment Summary"
+          echo "=========================================="
+          echo ""
+          echo "Backend Service:"
+          gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format='value(status.url)'
+          echo ""
+          echo "Frontend Service:"
+          gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format='value(status.url)'
+          echo ""
+          echo "=========================================="

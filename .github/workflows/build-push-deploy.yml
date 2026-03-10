@@ -1,0 +1,114 @@
+name: Build, Push & Deploy to GKE
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+
+env:
+  GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  GKE_CLUSTER_NAME: ${{ secrets.GKE_CLUSTER_NAME }}
+  GKE_ZONE: ${{ secrets.GKE_ZONE }}
+  REGISTRY: gcr.io
+  
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          export_default_credentials: true
+
+      - name: Configure Docker to use gcloud as credential helper
+        run: |
+          gcloud auth configure-docker ${{ env.REGISTRY }}
+
+      - name: Set image tags
+        run: |
+          SHORT_SHA=$(echo ${{ github.sha }} | cut -c1-7)
+          echo "IMAGE_TAG=${SHORT_SHA}" >> $GITHUB_ENV
+          echo "DJANGO_IMAGE=${{ env.REGISTRY }}/${{ env.GCP_PROJECT_ID }}/django-app:${SHORT_SHA}" >> $GITHUB_ENV
+          echo "REACT_IMAGE=${{ env.REGISTRY }}/${{ env.GCP_PROJECT_ID }}/react-app:${SHORT_SHA}" >> $GITHUB_ENV
+
+      - name: Build Django image
+        run: |
+          cd fitness_backend
+          docker build -f Dockerfile.django -t ${{ env.DJANGO_IMAGE }} .
+
+      - name: Build React image
+        run: |
+          cd fitness-frontend
+          docker build -f Dockerfile.frontend -t ${{ env.REACT_IMAGE }} .
+
+      - name: Push Django image to GCR
+        run: |
+          docker push ${{ env.DJANGO_IMAGE }}
+          echo "Image pushed: ${{ env.DJANGO_IMAGE }}"
+
+      - name: Push React image to GCR
+        run: |
+          docker push ${{ env.REACT_IMAGE }}
+          echo "Image pushed: ${{ env.REACT_IMAGE }}"
+
+  deploy:
+    needs: build-and-push
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+
+      - name: Get GKE credentials
+        run: |
+          gcloud container clusters get-credentials ${{ env.GKE_CLUSTER_NAME }} \
+            --zone ${{ env.GKE_ZONE }} \
+            --project ${{ env.GCP_PROJECT_ID }}
+
+      - name: Set image tags
+        run: |
+          SHORT_SHA=$(echo ${{ github.sha }} | cut -c1-7)
+          echo "DJANGO_IMAGE=${{ env.REGISTRY }}/${{ env.GCP_PROJECT_ID }}/django-app:${SHORT_SHA}" >> $GITHUB_ENV
+          echo "REACT_IMAGE=${{ env.REGISTRY }}/${{ env.GCP_PROJECT_ID }}/react-app:${SHORT_SHA}" >> $GITHUB_ENV
+
+      - name: Update Django deployment image
+        run: |
+          kubectl set image deployment/django-deployment \
+            django-container=${{ env.DJANGO_IMAGE }} \
+            --namespace=default
+
+      - name: Update React deployment image
+        run: |
+          kubectl set image deployment/react-app-deployment \
+            react-app-container=${{ env.REACT_IMAGE }} \
+            --namespace=default
+
+      - name: Verify deployments
+        run: |
+          kubectl rollout status deployment/django-deployment --timeout=3m
+          kubectl rollout status deployment/react-app-deployment --timeout=3m
+
+      - name: Log deployment info
+        run: |
+          echo "✅ Deployment successful!"
+          echo "Django image: ${{ env.DJANGO_IMAGE }}"
+          echo "React image: ${{ env.REACT_IMAGE }}"
+          echo "Commit: ${{ github.sha }}"

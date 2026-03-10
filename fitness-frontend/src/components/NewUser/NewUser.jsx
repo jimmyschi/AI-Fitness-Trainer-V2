@@ -49,16 +49,20 @@ const NewUser = () => {
             if(!response.ok) {
                 setUser(false);
                 throw new Error(`HTTP error! status ${response.status}`);
-            } else {
-                setUser(true);
             }
             const userResponse = await response.json();
+            // store token before updating state so downstream routes can read it
+            if(userResponse && userResponse.token) {
+                localStorage.setItem('token', userResponse.token);
+            }
+            if(userResponse && userResponse.user_id) {
+                localStorage.setItem('user_id', userResponse.user_id);
+            }
+            setUser(true);
             if(!userResponse) {
                 throw new Error("No user returned from the backend.");
             }
-            console.log(`userResponse: {userResponse}`);
-            localStorage.setItem('token', userResponse.token);
-            localStorage.setItem('user_id', userResponse.user_id);
+            console.log('userResponse:', userResponse);
             
             // setUser(userResponse.exists);
         } catch(error) {
