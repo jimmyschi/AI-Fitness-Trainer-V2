@@ -15,6 +15,9 @@ import os
 from storages.backends.gcloud import GoogleCloudStorage
 from google.oauth2 import service_account
 from google.cloud import storage
+from prometheus_client import Counter, Gauge, Histogram
+import time
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -74,6 +77,28 @@ INSTALLED_APPS = [
     'embed_video'
 ]
 
+class PrometheusMiddleware:
+    def __init__(self, get_response):
+        self.get_response = get_response
+
+    def __call__(self, request):
+        start_time = time.time()
+        response = self.get_response(request)
+        duration = time.time() - start_time
+        
+        REQUEST_COUNT.labels(
+            method=request.method,
+            endpoint=request.path,
+            status=response.status_code
+        ).inc()
+        
+        REQUEST_DURATION.labels(
+            method=request.method,
+            endpoint=request.path
+        ).observe(duration)
+        
+        return response
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -83,6 +108,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'fitness_backend.middleware.PrometheusMiddleware'
 ]
 
 ROOT_URLCONF = 'fitness_backend.urls'
@@ -202,3 +228,19 @@ REST_FRAMEWORK = {
 }
 
 AUTH_USER_MODEL = 'exercise.User'
+
+# Prometheus metrics configuration
+PROMETHEUS_ENABLED = True
+
+# Create metrics
+REQUEST_COUNT = Counter(
+    'django_requests_total',
+    'Total HTTP requests',
+    ['method', 'endpoint', 'status']
+)
+
+REQUEST_DURATION = Histogram(
+    'django_request_duration_seconds',
+    'HTTP request latency',
+    ['method', 'endpoint']
+)

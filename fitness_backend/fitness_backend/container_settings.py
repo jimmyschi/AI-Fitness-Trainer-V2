@@ -158,6 +158,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:8000",
     "http://35.203.54.31",
     "http://34.118.173.89",
+    # Frontend hosted in a GCS bucket
+    "https://fitness-frontend-y.storage.googleapis.com",
 ]
 
 # Allow local dev frontend

@@ -163,14 +163,20 @@ jobs:
 
       - name: Display deployment summary
         run: |
-          echo "=========================================="
-          echo "Cloud Run Deployment Summary"
-          echo "=========================================="
-          echo ""
-          echo "Backend Service:"
-          gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }}
-          echo ""
-          echo "Frontend Service:"
-          gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }}
-          echo ""
-          echo "=========================================="
+          BACKEND_URL=$(gcloud run services describe fitness-backend --region ${{ env.DJANGO_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }})
+          FRONTEND_URL=$(gcloud run services describe fitness-frontend --region ${{ env.REACT_REGION }} --format='value(status.url)' --project ${{ env.PROJECT_ID }})
+          
+          # Output to workflow summary (displays prominently on Actions page)
+          {
+            echo "# Cloud Run Deployment Successful"
+            echo ""
+            echo "## Live Application URLs"
+            echo "- **Frontend:** [$FRONTEND_URL]($FRONTEND_URL)"
+            echo "- **Backend:** [$BACKEND_URL]($BACKEND_URL)"
+            echo ""
+            echo "## Deployment Info"
+            echo "- **Project:** ${{ env.PROJECT_ID }}"
+            echo "- **Region:** ${{ env.DJANGO_REGION }}"
+            echo "- **Commit:** ${{ github.sha }}"
+            echo "- **Time:** $(date)"
+          } >> $GITHUB_STEP_SUMMARY
